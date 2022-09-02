@@ -26,7 +26,7 @@ Visualize list of assembly in db
 ```
 
 From Assembly select DoubleMetaphone and create script from assembly in clipboard
-![create script from assembly](https://github.com/nicogis/DoubleMetaphoneXAF/blob/master/DoubleMetaphone/images/createAssembly.png)
+![create script from assembly](https://github.com/nicogis/DoubleMetaphoneXAF/blob/master/DoubleMetaphone/images/CreateAssembly.png)
 Clipboard:
 
 ```<language>
@@ -205,7 +205,7 @@ In table customers I have add three similar strings (CompanyName field)
 
 and I search for example ***'Blaer Se Delikatessen'*** I match all strings
 
-![search](https://github.com/nicogis/DoubleMetaphoneXAF/blob/master/DoubleMetaphone/images/search.png)
+![search](https://github.com/nicogis/DoubleMetaphoneXAF/blob/master/DoubleMetaphone/images/Search.png)
 
 
 
