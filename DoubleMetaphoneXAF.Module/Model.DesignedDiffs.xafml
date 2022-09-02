@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="DoubleMetaphoneXAF">
+  <NavigationItems>
+    <Items>
+      <Item Id="Customers" Caption="Customers" ViewId="Customers_ListView" IsNewNode="True" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
