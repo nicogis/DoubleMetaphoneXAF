@@ -1,12 +1,12 @@
 # Double Metaphone XAF
 
-This is a prof of concepts to use [DoubleMetaphone](https://en.wikipedia.org/wiki/Metaphone) algorithm in XAF
+This is a PoC to use [DoubleMetaphone](https://en.wikipedia.org/wiki/Metaphone) algorithm in XAF
 
 - Build DoubleMetaphone project
 
 - Register [dll in SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/clr-integration/database-objects/getting-started-with-clr-integration?view=sql-server-ver16)
 
-  Can follow these steps (here I use Northwind):
+  You can follow these steps (here I am using Northwind):
     
 
 ```<language>
@@ -180,7 +180,7 @@ public partial class VCSearchDoubleMetaphone : ViewController
     }
 ```
 
-In db Northwind add in table Customers the field CompanyNameDoubleMetaphone
+In db Northwind add the field CompanyNameDoubleMetaphone in table Customers
 
 ```<language>
 USE [Northwind]
@@ -198,12 +198,12 @@ GO
 ```
 
 
-In table customers I have add three similar strings (CompanyName field)
+In table customers I have added three similar strings (CompanyName field)
 <pre>'Blauer See    Delikatessen sa'
 'Blauer Se    Delikatessen s.a.'
 'Blaer Se    Deliktesse s.a.'</pre>
 
-and I search for example ***'Blaer Se Delikatessen'*** I match all strings
+and for example I search for  ***'Blaer Se Delikatessen'*** then I match all strings
 
 ![search](https://github.com/nicogis/DoubleMetaphoneXAF/blob/master/DoubleMetaphone/images/Search.png)
 
